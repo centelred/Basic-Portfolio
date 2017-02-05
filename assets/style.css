@@ -31,197 +31,126 @@ li a:hover {
     background-color: #4aaaa5;
 }
 
+
 body {
 	background-image: url('cheapfab.png');
-	width:100%;
-	overflow:hidden;
-	color:#777777;
 }
 
 p {
+	color:#777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size:110%;
 }
 
 h2 {
+	color:#4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding-bottom:2%;
+	border-bottom:solid;
+	border-width:.1em;
+	border-color:#cccccc;
+	font-size:140%;
+	font-weight:bold;
 }
+
 
 h3 {
+	color:#4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-img.gallery {
-	display:block;
-	margin:auto;
-	width:20%;
-}
-
-.body {
-	border-color:#dddddd;
+	padding-bottom:2.5%;
 	border-bottom:solid;
-	border-width:2px;
+	border-width:.1em;
+	border-color:#cccccc;
+	text-align:center;
+	font-size:120%;
+	font-weight:bolder;
 }
+
 
 .header {
-	overflow:hidden;
-	position:absolute;
-	display:inline-block;
-	top:0px;
-	left:0px;
-	width:100%;
 	background-color:#ffffff;
+	width:100%;
+	float:left;
+	position:relative;
+	top:0px;
 	border-bottom:solid;
-	border-width:2px;
+	border-width:.2em;
 	border-color:#cccccc;
-	line-height:2em;
+	line-height:2.5em;
 }
 
 .name {
-	text-align:center;
-	float:left;
-	position:relative;
-	top:0px;
-	padding:1.1%;
-	left:4%;
-	background-color:#4aaaa5;
-	font-size:150%;
-	font-family: 'Georgia', Times, Times New Roman, serif;
 	color:#ffffff;
-	width:20%
-}
-
-.section: {
-	position:relative;
+	text-align:center;
+	position:absolute;
+	padding:.35%;
+	line-height:2.5em;
+	font-size:150%;
 	top:0px;
-	left:0px;
-	width:100%;
+	left:3%;
+	width:15%;
+	background-color:#4aaaa5;
 }
 
-.bio {
+.section {
 	background-color:#ffffff;
-	position:relative;
-	top:85px;
-	left:11%;
-	width:45%;
+	position:absolute;
+	padding:2%;
+	top:12%;
+	left:10%;
 	float:left;
-	padding:25px;
-	border-bottom:solid;
-	border-width:2px;
-	border-color:#cccccc;
-	height:inherit;
+	width:50%;
 }
 
 .biopic {
-	width:150px;
-	height:150px;
 	float:left;
+	padding:1%;
 }
 
-.aboutme {
-	color:#4aaaa5;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	border-bottom:solid;
-	border-width:2px;
-	border-color:#cccccc;
-	padding-bottom:10px;
-}
 
-.bodytext {
-	position:relative;
-	top:0;
-	left:3px;
-	padding:3px;
-	margin:3px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-.foot {
-	position:absolute;
-	overflow:auto;
-	float:left;
-	line-height:6em;
-	top:565px;
-	left:0px;
-	width:100%;
-	background-color:#666666;
-	border-top:solid;
-	border-width:6px;
-	border-color:#4aaaa5;
-	color:#ffffff;
-	text-align:center;
-}
-
-.connect {
-	padding-bottom:10px;
-	position:relative;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+.aside {
+	background-color:#ffffff;
 	float:right;
-	width:15%;
-	height:inherit;
-	background-color:#ffffff;
-	top:70px;
-	right:20%;
-	margin:15px;
-	padding:25px;
+	position:absolute;
+	padding:2%;
+	width:20%;
+	top:12%;
+	right:10%;
+}
+
+.footer {
+	background-color:#666666;
+	width:100%;
+	left:0px;
+	float:left;
+	position:fixed;
+	bottom:0px;
+	border-top:solid;
+	border-width:.5em;
+	border-color:#4aaaa5;
 	text-align:center;
-	border-bottom:solid;
-	border-width:2px;
-	border-color:#cccccc;
-	overflow:inherit;
-}
-
-.gallery {
-	background-color:#ffffff;
-	position:relative;
-	top:85px;
-	left:11%;
-	width:45%;
-	float:left;
-	padding:25px;
-	border-bottom:solid;
-	border-width:2px;
-	border-color:#cccccc;
-	height:inherit;
-}
-
-.contact {
-	background-color:#ffffff;
-	position:relative;
-	top:85px;
-	left:11%;
-	width:45%;
-	float:left;
-	padding:25px;
-	border-bottom:solid;
-	border-width:2px;
-	border-color:#cccccc;
-	height:inherit;
+	line-height:2.5em;
 }
 
 .conpic {
-	height:50px;
-	width:50px;
+	height:15%;
+	width:15%;
 }
 
-#submit_button {
-	background-color:#4aaaa5;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-.img {
-	height:10%;
-	width:10%;
+.image {
 	display:inline-block;
-	padding-right:110px;
+	padding:1%;
 }
-
 
 .desc {
-	position:relative;
-	bottom:40px;
 	background-color:#4aaaa5;
-	color:black;
-	width:150px;
-	line-height:2em;
-	text-align:center;
+	position:relative;
+	bottom:45px;
+	line-height:1.5em;
+	padding:2%;
+}
+
+.submit {
+	background-color:#4aaaa5;
+	color:#666666;
 }
